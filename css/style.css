@@ -42,9 +42,7 @@ header{
 
 .menu a{
     color: white;
-   
     text-decoration: none;
-    
     padding: .7em;
     font-size: .8em;
     font-weight: 600;
@@ -56,7 +54,7 @@ header{
     padding: 0.5rem 0.7rem 0.5rem 0.7rem;
     text-align: center;
     background-color: white;
-    color: black;
+    color: #23272a;
     border-radius: 15px;
     float: right;
     display: inline-block;
@@ -86,11 +84,12 @@ header{
     text-decoration: none;
     border-radius: 30px;
     padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    font-weight: 600;
 }
 
 .buttons a:first-child{
     background-color: white;
-    color: black;
+    color: #23272a;
     margin-right: .5rem;
 }
 
@@ -98,4 +97,36 @@ header{
     background-color: #23272a;
     color: white;
     margin-left: .5rem;
+}
+
+.first{
+    margin-top: 5rem;
+}
+
+.first img{
+    width: 55%;
+    float: left;
+}
+
+.text{
+    width: 80%;
+    margin: 3rem;
+    margin-right: 0rem;
+}
+
+.contenitor{
+    color: #23272a;
+    
+}
+/* .right h2, p{
+    float: right;
+} */
+
+.contenitor h2{
+    font-size: 35px;
+    margin-left: 2rem;
+}
+
+.contenitor p{
+    padding-top: 2rem;
 }
