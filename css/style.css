@@ -8,7 +8,7 @@ html{
     font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
 }
 
-.contenitor{
+.jumbo, .contenitor{
     width: 900px;
     height: 500px;
     margin: auto;
@@ -99,21 +99,34 @@ header{
     margin-left: .5rem;
 }
 
-.first{
-    margin-top: 5rem;
+
+
+.first, .second, .third{
+    padding-top: 5rem;
 }
 
-.first img{
+.first img, .third img{
     width: 55%;
     float: left;
 }
 
-.text{
+.first .text{
     width: 80%;
     margin: 3rem;
     margin-right: 0rem;
 }
 
+.second .text{
+    width: 30%;
+}
+
+.third .text{
+    width: 85%;
+}
+
+.fourth .text{
+    text-align: center;
+}
 .contenitor{
     color: #23272a;
     
@@ -124,9 +137,18 @@ header{
 
 .contenitor h2{
     font-size: 35px;
-    margin-left: 2rem;
 }
 
 .contenitor p{
     padding-top: 2rem;
+}
+
+.second{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.second img{
+    width: 55%;
+    float: right;
 }
